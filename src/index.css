@@ -1,0 +1,202 @@
+.progress-bar {
+  margin: 0 auto;
+  margin-top: 3vh;
+  width: 70vw;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  border: solid;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar-container{
+  text-align: center;
+}
+
+.progress-label{
+  font-weight: bold;
+  font-size: 3vh;
+  color: greenyellow;
+  margin-bottom: 25px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: rgb(55, 242, 8);
+  border-radius: 20px;
+  transition: width 0.5s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-buttons-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.progress-button {
+  margin: 0 10px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #76c7c0;
+  border-radius: 15px;
+  color: white;
+  border-color: black;
+  width: 100px;
+}
+
+.progress-button-back {
+  margin: 0 10px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #c78676;
+  border-radius: 15px;
+  color: white;
+  border-color: black;
+}
+
+.q1div {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center;    /* Center children horizontally */
+}
+
+.q1text {
+  align-self: flex-start;
+  margin-left: 15vw;
+  color: white;
+}
+
+.q1btn {
+  width: 500px;
+  height: 150px;
+  padding: 15px;
+  margin: 10px 0; /* Space between buttons */
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.q1btn:hover {
+  background-color: #00ff22;
+}
+
+.q3text{
+  color: black;
+}
+
+.personicon{
+  height:100px ;
+  color: blue;
+}
+
+.personicon1{
+  height: 100px;
+  color: red;
+}
+
+.question-slider-container {
+  margin-top: 25px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 500px;
+  width: 100%;
+  margin:  auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.age-label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.slider {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.age-input {
+  width: 50px;
+  text-align: center
+}
+
+.cakeicon{
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.q3text{
+  font-size: larger;
+  font-weight: bold;
+}
+
+.apiinput{
+  height: 25px;
+  width: 40vw;
+  border-radius: 20px;
+}
+
+.workout-routine {
+  display: flex;
+  justify-content: space-around; 
+  align-items: start; 
+  flex-wrap: wrap; 
+  margin-bottom: 20px; 
+}
+
+.workoutbox {
+  flex: 1; 
+  margin: 10px; 
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds shadow for better visibility */
+  background-color: white;
+  border-radius: 10px;
+}
+.workouts-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.button-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center;
+  width: 100%; 
+  margin-top: 25px;
+  margin-left: 20px;
+}
+.complete-container{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;
+
+}

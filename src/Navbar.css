@@ -1,0 +1,47 @@
+.app-container {
+    display: flex;
+  }
+  
+  .navbar {
+    width: 90px; /* Set the width of the navbar */
+    height: 100vh; /* Full height */
+    background-color: #1d3c88; /* Adjust the color to match the design */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: fixed; /* Fix the navbar to the left side */
+    top: 0;
+    left: 0;
+  }
+  
+  .app-content {
+    margin-left: 0; /* Remove margin for content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Take full width */
+    padding: 20px;
+  }
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.navbar-item span {
+    margin-left: 10px;
+}
+
+.navbar-item:hover {
+    background-color: #3456a1; 
+}
+
+.navbar-item svg {
+    width: 24px;
+    height: 24px;
+}

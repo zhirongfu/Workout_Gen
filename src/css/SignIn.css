@@ -1,0 +1,36 @@
+.signin-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.signin-container h1 {
+    text-align: center;
+}
+
+.signin-container form div {
+    margin-bottom: 10px;
+}
+
+.signin-container form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.signin-container form input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signin-container .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+}

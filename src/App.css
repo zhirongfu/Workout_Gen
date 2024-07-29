@@ -1,0 +1,13 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background: url('./assets/Homepagebg.jpg') no-repeat center center fixed;
+  background-size: contain; /* Ensure the image fits within the viewport */
+  background-attachment: fixed; /* Ensures the background stays fixed when scrolling */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-position: center center; /* Centers the background image */
+  background-size: 100% 100%; /* Ensures the image fits the viewport both horizontally and vertically */
+}
